@@ -4,8 +4,8 @@ package xjsnark.sha256;
 
 import backend.structure.CircuitGenerator;
 import backend.config.Config;
-import backend.eval.SampleRun;
 import java.math.BigInteger;
+import backend.eval.SampleRun;
 import backend.auxTypes.UnsignedInteger;
 import backend.eval.CircuitEvaluator;
 
@@ -17,6 +17,7 @@ public class SHA256 extends CircuitGenerator {
     // This is the java main method. Its purpose is to make the Progam runnable in the environment 
 
     Config.multivariateExpressionMinimization = true;
+    Config.setFiniteFieldModulus(new BigInteger("115792089237316195423570985008687907852837564279074904382605163141518161494337"));
 
     // Num of threads could be set higher based on the machine specs. Setting it too high will lead to faster timeouts 
     Config.arithOptimizerNumThreads = 1;

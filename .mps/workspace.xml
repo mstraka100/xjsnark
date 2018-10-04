@@ -6,7 +6,10 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a3d432e-4783-408c-a44e-e910caab6da6" name="Default" comment="" />
+    <list default="true" id="0a3d432e-4783-408c-a44e-e910caab6da6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/xjsnark/sandbox/models/xjsnark/scrypt.mps" afterPath="$PROJECT_DIR$/languages/xjsnark/sandbox/models/xjsnark/scrypt.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/xjsnark/sandbox/models/xjsnark/sha256.mps" afterPath="$PROJECT_DIR$/languages/xjsnark/sandbox/models/xjsnark/sha256.mps" />
+    </list>
     <ignored path="xjsnark.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,19 +46,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SHA256" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SHA256" pinned="false" current-in-tab="false">
         <entry file="mps://node://xjsnark.sandbox/xjsnark.sha256/SHA256">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="1256">
+              <memento viewPositionX="0" viewPositionY="1284">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="440" />
+                    <property name="caretX" value="743" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" />
+                      <node node_reference="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2086004491814018259" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -63,7 +66,7 @@
                 <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -74,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrypt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scrypt" pinned="false" current-in-tab="true">
         <entry file="mps://node://xjsnark.sandbox/xjsnark.scrypt/scrypt">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="3437">
+              <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="359" />
+                    <property name="caretX" value="39" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2086004491810685357" />
+                    <cellInfo cellId="Constant_l37zqg_k0" cellNumber="0" isInList="false">
+                      <node node_reference="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -94,7 +97,7 @@
                 <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -134,7 +137,7 @@
                 <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -174,8 +177,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
-    <option name="y" value="562" />
+    <option name="x" value="96" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -259,12 +262,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/languages/xjsnark/sandbox/xjsnark.sandbox.msd" />
               <option name="myItemType" value="" />
@@ -283,8 +280,18 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/languages/xjsnark/sandbox/xjsnark.sandbox.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xjsnark" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,6 +310,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256) in IdeaFile{file:///Users/michaelstraka/mpsxjsnark/xjsnark/languages/xjsnark/sandbox/models/xjsnark/sha256.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/xjsnark/sandbox/xjsnark.sandbox.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,20 +341,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/xjsnark/sandbox/xjsnark.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjsnark" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -352,7 +355,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256) in IdeaFile{file:///Users/michaelstraka/mpsxjsnark/xjsnark/languages/xjsnark/sandbox/models/xjsnark/sha256.mps}" />
+              <option name="myItemId" value="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt) in IdeaFile{file:///Users/michaelstraka/mpsxjsnark/xjsnark/languages/xjsnark/sandbox/models/xjsnark/scrypt.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -365,7 +368,7 @@
       <pane id="Favorites" />
     </panes>
   </component>
-  <component name="RunManager" selected="Java Application.Class scrypt">
+  <component name="RunManager" selected="Java Application.Class SHA256">
     <configuration default="false" name="Class scrypt" type="Java Application" factoryName="Java" temporary="true">
       <MyState />
       <myNode>
@@ -489,8 +492,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Java Application.Class scrypt" />
-        <item index="1" class="java.lang.String" itemvalue="Java Application.Class SHA256" />
+        <item index="0" class="java.lang.String" itemvalue="Java Application.Class SHA256" />
+        <item index="1" class="java.lang.String" itemvalue="Java Application.Class scrypt" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
@@ -529,8 +532,8 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="562" width="1400" height="837" extended-state="0" />
-    <editor active="false" />
+    <frame x="96" y="23" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -650,15 +653,15 @@
     <entry file="mps://node://xjsnark.sandbox/xjsnark.sha256/SHA256">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="1256">
+          <memento viewPositionX="0" viewPositionY="1284">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="8" />
-                <property name="caretX" value="440" />
+                <property name="caretX" value="743" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" />
+                  <node node_reference="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2086004491814018259" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -666,7 +669,7 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -679,15 +682,15 @@
     <entry file="mps://node://xjsnark.sandbox/xjsnark.scrypt/scrypt">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="3437">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="8" />
-                <property name="caretX" value="359" />
+                <property name="caretX" value="39" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2086004491810685357" />
+                <cellInfo cellId="Constant_l37zqg_k0" cellNumber="0" isInList="false">
+                  <node node_reference="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -695,7 +698,7 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -724,7 +727,7 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:05f8e4d8-efc3-4f51-bd4d-5d0ae91e6190(xjsnark.sha256)/2787941026043765952" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:31168cb9-577a-40b1-b97b-34636ca81116(xjsnark.scrypt)/2787941026043489501" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

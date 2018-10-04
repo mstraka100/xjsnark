@@ -52,6 +52,9 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -141,6 +144,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -5303,6 +5307,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1NMYwxYspNj" role="3cqZAp">
+          <node concept="2YIFZM" id="1NMYwxYspPM" role="3clFbG">
+            <ref role="37wK5l" to="85wc:~Config.setFiniteFieldModulus(java.math.BigInteger):void" resolve="setFiniteFieldModulus" />
+            <ref role="1Pybhc" to="85wc:~Config" resolve="Config" />
+            <node concept="2ShNRf" id="1NMYwxYspQW" role="37wK5m">
+              <node concept="1pGfFk" id="1NMYwxYspW1" role="2ShVmc">
+                <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String)" resolve="BigInteger" />
+                <node concept="Xl_RD" id="1NMYwxYspWY" role="37wK5m">
+                  <property role="Xl_RC" value="115792089237316195423570985008687907852837564279074904382605163141518161494337" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1NMYwxYtEsf" role="3cqZAp" />
         <node concept="3clFbH" id="1t1EHTMeHQY" role="3cqZAp" />
         <node concept="3SKdUt" id="1t1EHTMguy$" role="3cqZAp">
           <node concept="3SKdUq" id="1t1EHTMguyA" role="3SKWNk">
