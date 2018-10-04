@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="xjsnark.aes.AES128" file="AES128.java">
+    <classNode dependClassName="backend.auxTypes.Bit" />
+    <classNode dependClassName="backend.auxTypes.ConditionalScopeTracker" />
+    <classNode dependClassName="backend.auxTypes.SmartMemory" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.eval.CircuitEvaluator" />
+    <classNode dependClassName="backend.eval.SampleRun" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode extendsClassName="backend.structure.CircuitGenerator" />
+  </dependency>
+</dependenciesRoot>
+

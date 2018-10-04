@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:87a865a3-34af-4e94-a539-fa744ec50ade(xjsnark.sortingVerification)/2787941026048180210">
+    <file name="IndexComparator.java">
+      <node id="2885914005884267505" at="10,0,11,0" concept="2" trace="a" />
+      <node id="2885914005884267516" at="11,46,12,19" concept="1" />
+      <node id="2885914005884267565" at="15,54,16,42" concept="6" />
+      <node id="2885914005884267510" at="11,0,14,0" concept="0" trace="IndexComparator#([Ljava/math/BigInteger;)V" />
+      <node id="2885914005884267558" at="14,0,18,0" concept="4" trace="compare#(Ljava/lang/Integer;Ljava/lang/Integer;)I" />
+      <scope id="2885914005884267515" at="11,46,12,19" />
+      <scope id="2885914005884267564" at="15,54,16,42" />
+      <scope id="2885914005884267510" at="11,0,14,0">
+        <var name="array" id="2885914005884267512" />
+      </scope>
+      <scope id="2885914005884267558" at="14,0,18,0">
+        <var name="index1" id="2885914005884267560" />
+        <var name="index2" id="2885914005884267562" />
+      </scope>
+      <unit id="2787941026048180210" at="8,0,21,0" name="xjsnark.sortingVerification.IndexComparator" />
+    </file>
+  </root>
+  <root nodeRef="r:87a865a3-34af-4e94-a539-fa744ec50ade(xjsnark.sortingVerification)/2787941026048273737">
+    <file name="SortingVerification.java">
+      <node id="2787941026048273772" at="19,42,20,99" concept="7" />
+      <node id="2787941026048273774" at="20,99,21,89" concept="7" />
+      <node id="2787941026048273737" at="21,89,22,30" concept="1" />
+      <node id="2787941026048273737" at="25,32,26,33" concept="11" />
+      <node id="2787941026048273737" at="26,33,27,24" concept="1" />
+      <node id="2787941026048442407" at="29,25,30,41" concept="7" />
+      <node id="9127802535001447121" at="31,40,32,139" concept="1" />
+      <node id="2787941026048545468" at="35,26,36,117" concept="7" />
+      <node id="2787941026048701365" at="37,40,38,167" concept="1" />
+      <node id="2787941026048941970" at="39,9,40,50" concept="7" />
+      <node id="2787941026048709801" at="40,50,41,105" concept="7" />
+      <node id="2787941026048700274" at="41,105,42,0" concept="8" />
+      <node id="2787941026048273737" at="45,7,46,0" concept="8" />
+      <node id="2787941026048273737" at="51,24,52,141" concept="1" />
+      <node id="2787941026048273737" at="52,141,53,139" concept="1" />
+      <node id="2885914005883517217" at="56,0,57,0" concept="2" trace="unsortedArray" />
+      <node id="2885914005883517798" at="57,0,58,0" concept="2" trace="sortedArray" />
+      <node id="2787941026048299682" at="59,0,60,0" concept="9" trace="SIZE" />
+      <node id="2787941026048273744" at="61,32,62,27" concept="1" />
+      <node id="2787941026048273744" at="62,27,63,85" concept="1" />
+      <node id="2787941026048273744" at="63,85,64,0" concept="8" />
+      <node id="2787941026048273744" at="64,0,65,0" concept="8" />
+      <node id="2787941026048273744" at="65,0,66,0" concept="8" />
+      <node id="2787941026048273744" at="66,0,67,0" concept="8" />
+      <node id="2787941026048273744" at="67,0,68,0" concept="8" />
+      <node id="2787941026048273744" at="68,0,69,0" concept="8" />
+      <node id="2787941026048273744" at="69,0,70,0" concept="8" />
+      <node id="2787941026048273746" at="73,43,74,38" concept="1" />
+      <node id="2787941026048273746" at="74,38,75,0" concept="8" />
+      <node id="2787941026048273746" at="75,0,76,0" concept="8" />
+      <node id="2787941026048273746" at="76,0,77,0" concept="8" />
+      <node id="2787941026048273746" at="77,0,78,0" concept="8" />
+      <node id="2787941026048273746" at="78,0,79,0" concept="8" />
+      <node id="2787941026048273746" at="79,0,80,0" concept="8" />
+      <node id="2787941026048273746" at="80,0,81,0" concept="8" />
+      <node id="2787941026048273746" at="81,0,82,0" concept="8" />
+      <node id="2787941026048273746" at="82,0,83,0" concept="8" />
+      <node id="2787941026048273746" at="83,0,84,0" concept="8" />
+      <node id="2787941026048273747" at="87,35,88,30" concept="1" />
+      <node id="2787941026048273747" at="88,30,89,0" concept="8" />
+      <node id="2787941026048273747" at="89,0,90,83" concept="1" />
+      <node id="2787941026048273747" at="90,83,91,0" concept="8" />
+      <node id="2787941026048273747" at="91,0,92,0" concept="8" />
+      <node id="2787941026048273747" at="92,0,93,0" concept="8" />
+      <node id="2787941026048273747" at="93,0,94,0" concept="8" />
+      <node id="2787941026048273747" at="94,0,95,0" concept="8" />
+      <node id="2787941026048273747" at="95,0,96,0" concept="8" />
+      <node id="2787941026048273747" at="96,0,97,0" concept="8" />
+      <node id="2787941026048273747" at="97,0,98,0" concept="8" />
+      <node id="2787941026048273745" at="101,33,102,28" concept="1" />
+      <node id="2787941026048273745" at="102,28,103,0" concept="8" />
+      <node id="2787941026048273745" at="103,0,104,0" concept="8" />
+      <node id="2787941026048273745" at="104,0,105,0" concept="8" />
+      <node id="2787941026048273745" at="105,0,106,0" concept="8" />
+      <node id="2787941026048273745" at="106,0,107,0" concept="8" />
+      <node id="2787941026048273745" at="107,0,108,0" concept="8" />
+      <node id="2787941026048273745" at="108,0,109,0" concept="8" />
+      <node id="2787941026048333737" at="111,27,112,0" concept="8" />
+      <node id="2787941026048333873" at="112,0,113,109" concept="7" />
+      <node id="2787941026048401428" at="113,109,114,115" concept="7" />
+      <node id="2787941026048407968" at="114,115,115,81" concept="7" />
+      <node id="2787941026048356412" at="117,49,118,0" concept="8" />
+      <node id="2885914005884253136" at="118,0,119,51" concept="5" />
+      <node id="2787941026048342589" at="119,51,120,43" concept="7" />
+      <node id="2885914005884256154" at="121,40,122,133" concept="1" />
+      <node id="2787941026048358336" at="123,9,124,68" concept="7" />
+      <node id="2787941026048357114" at="124,68,125,0" concept="8" />
+      <node id="2787941026048348463" at="125,0,126,60" concept="7" />
+      <node id="2885914005884257244" at="126,60,127,43" concept="5" />
+      <node id="2787941026048369171" at="128,40,129,22" concept="1" />
+      <node id="2885914005884257239" at="130,9,131,65" concept="5" />
+      <node id="2787941026048380392" at="131,65,132,90" concept="7" />
+      <node id="2787941026048385931" at="132,90,133,62" concept="7" />
+      <node id="2885914005884257248" at="133,62,134,38" concept="1" />
+      <node id="2885914005884257253" at="134,38,135,42" concept="5" />
+      <node id="2885914005884257274" at="136,40,137,35" concept="1" />
+      <node id="2787941026048387966" at="138,9,139,40" concept="7" />
+      <node id="2885914005884257282" at="139,40,140,28" concept="1" />
+      <node id="2787941026048393327" at="140,28,141,53" concept="7" />
+      <node id="2885914005884263553" at="142,40,143,117" concept="1" />
+      <node id="2787941026048353517" at="144,9,145,0" concept="8" />
+      <node id="2787941026048352401" at="145,0,146,66" concept="7" />
+      <node id="2787941026048431909" at="146,66,147,129" concept="1" />
+      <node id="2787941026048437332" at="149,7,150,0" concept="8" />
+      <node id="2787941026049122802" at="150,0,151,48" concept="7" />
+      <node id="2787941026048422349" at="151,48,152,115" concept="1" />
+      <node id="659829000141036738" at="152,115,153,0" concept="8" />
+      <node id="2787941026048426904" at="154,40,155,136" concept="1" />
+      <node id="2787941026048416601" at="156,5,157,0" concept="8" />
+      <node id="2787941026048273737" at="160,65,161,37" concept="1" />
+      <node id="9127802535001444213" at="30,41,33,9" concept="3" />
+      <node id="2787941026048700570" at="36,117,39,9" concept="3" />
+      <node id="2885914005884253783" at="120,43,123,9" concept="3" />
+      <node id="2787941026048366803" at="127,43,130,9" concept="3" />
+      <node id="2885914005884257261" at="135,42,138,9" concept="3" />
+      <node id="2885914005884257285" at="141,53,144,9" concept="3" />
+      <node id="1354234980250241633" at="153,0,156,5" concept="3" />
+      <node id="2787941026048273737" at="160,0,163,0" concept="4" trace="__generateSampleInput#(Lbackend/eval/CircuitEvaluator;)V" />
+      <node id="2787941026048273737" at="51,0,55,0" concept="4" trace="__init#()V" />
+      <node id="2787941026048273737" at="19,0,24,0" concept="10" trace="main#([Ljava/lang/String;)V" />
+      <node id="2787941026048273737" at="29,0,35,0" concept="4" trace="pre#()V" />
+      <node id="2787941026048273737" at="35,0,44,0" concept="4" trace="post#()V" />
+      <node id="2787941026048273745" at="100,0,111,0" concept="4" trace="__defineOutputs#()V" />
+      <node id="2787941026048273744" at="60,0,72,0" concept="4" trace="__defineInputs#()V" />
+      <node id="2787941026048273746" at="72,0,86,0" concept="4" trace="__defineVerifiedWitnesses#()V" />
+      <node id="2787941026048273747" at="86,0,100,0" concept="4" trace="__defineWitnesses#()V" />
+      <node id="2787941026048273737" at="27,24,45,7" concept="1" />
+      <node id="2787941026048273737" at="25,0,48,0" concept="0" trace="SortingVerification#()V" />
+      <node id="2787941026048335609" at="117,0,149,0" concept="4" trace="evaluate#(Lbackend/eval/CircuitEvaluator;)V" />
+      <node id="2787941026048335609" at="115,81,149,7" concept="1" />
+      <node id="2787941026048273750" at="111,0,159,0" concept="4" trace="outsource#()V" />
+      <scope id="9127802535001444215" at="31,40,32,139" />
+      <scope id="2787941026048700574" at="37,40,38,167" />
+      <scope id="2885914005884253785" at="121,40,122,133" />
+      <scope id="2787941026048366805" at="128,40,129,22" />
+      <scope id="2885914005884257273" at="136,40,137,35" />
+      <scope id="2885914005884257297" at="142,40,143,117" />
+      <scope id="1354234980250241635" at="154,40,155,136" />
+      <scope id="2787941026048273737" at="160,65,161,37" />
+      <scope id="2787941026048273768" at="19,42,21,89" />
+      <scope id="2787941026048273737" at="51,24,53,139" />
+      <scope id="2787941026048273737" at="19,42,22,30" />
+      <scope id="9127802535001444213" at="30,41,33,9">
+        <var name="i" id="9127802535001444214" />
+      </scope>
+      <scope id="2787941026048700570" at="36,117,39,9">
+        <var name="i" id="2787941026048700571" />
+      </scope>
+      <scope id="2885914005884253783" at="120,43,123,9">
+        <var name="i" id="2885914005884253786" />
+      </scope>
+      <scope id="2787941026048366803" at="127,43,130,9">
+        <var name="i" id="2787941026048366806" />
+      </scope>
+      <scope id="2885914005884257261" at="135,42,138,9">
+        <var name="i" id="2885914005884257262" />
+      </scope>
+      <scope id="2885914005884257285" at="141,53,144,9">
+        <var name="i" id="2885914005884257286" />
+      </scope>
+      <scope id="1354234980250241633" at="153,0,156,5">
+        <var name="i" id="1354234980250241636" />
+      </scope>
+      <scope id="2787941026048273737" at="160,0,163,0">
+        <var name="evaluator" id="2787941026048273737" />
+      </scope>
+      <scope id="2787941026048273737" at="29,25,33,9" />
+      <scope id="2787941026048273760" at="29,25,33,9" />
+      <scope id="2787941026048273737" at="51,0,55,0" />
+      <scope id="2787941026048273737" at="19,0,24,0">
+        <var name="args" id="2787941026048273737" />
+      </scope>
+      <scope id="2787941026048273737" at="29,0,35,0" />
+      <scope id="2787941026048273737" at="35,26,42,0" />
+      <scope id="2787941026048273762" at="35,26,42,0" />
+      <scope id="2787941026048273745" at="101,33,109,0" />
+      <scope id="2787941026048273737" at="35,0,44,0" />
+      <scope id="2787941026048273744" at="61,32,70,0" />
+      <scope id="2787941026048273746" at="73,43,84,0" />
+      <scope id="2787941026048273747" at="87,35,98,0" />
+      <scope id="2787941026048273745" at="100,0,111,0" />
+      <scope id="2787941026048273744" at="60,0,72,0" />
+      <scope id="2787941026048273746" at="72,0,86,0" />
+      <scope id="2787941026048273747" at="86,0,100,0" />
+      <scope id="2787941026048273737" at="25,32,46,0" />
+      <scope id="2787941026048273737" at="25,0,48,0" />
+      <scope id="2787941026048335609" at="117,49,147,129" />
+      <scope id="2787941026048335611" at="117,49,147,129">
+        <var name="comparator" id="2885914005884257238" />
+        <var name="idxs" id="2885914005884257243" />
+        <var name="permutation" id="2885914005884257252" />
+        <var name="values" id="2885914005884253142" />
+      </scope>
+      <scope id="2787941026048335609" at="117,0,149,0">
+        <var name="p0" id="2787941026048335609" />
+      </scope>
+      <scope id="2787941026048273753" at="111,27,157,0" />
+      <scope id="2787941026048273750" at="111,0,159,0" />
+      <unit id="2787941026048273737" at="28,33,45,5" name="xjsnark.sortingVerification.SortingVerification$1" />
+      <unit id="2787941026048335609" at="116,89,149,5" name="xjsnark.sortingVerification.SortingVerification$2" />
+      <unit id="2787941026048273737" at="15,0,165,0" name="xjsnark.sortingVerification.SortingVerification" />
+    </file>
+  </root>
+</debug-info>
+

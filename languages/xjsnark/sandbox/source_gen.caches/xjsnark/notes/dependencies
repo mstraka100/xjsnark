@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="xjsnark.notes.DifferentOperators" file="DifferentOperators.java">
+    <classNode dependClassName="backend.auxTypes.Bit" />
+    <classNode dependClassName="backend.auxTypes.ConditionalScopeTracker" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.eval.CircuitEvaluator" />
+    <classNode dependClassName="backend.eval.SampleRun" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode extendsClassName="backend.structure.CircuitGenerator" />
+  </dependency>
+  <dependency className="xjsnark.notes.Types" file="Types.java">
+    <classNode dependClassName="backend.auxTypes.Bit" />
+    <classNode dependClassName="backend.auxTypes.ConditionalScopeTracker" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.eval.CircuitEvaluator" />
+    <classNode dependClassName="backend.eval.SampleRun" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode extendsClassName="backend.structure.CircuitGenerator" />
+  </dependency>
+</dependenciesRoot>
+

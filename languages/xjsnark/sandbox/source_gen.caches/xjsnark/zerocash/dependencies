@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="xjsnark.zerocash.Coin" file="Coin.java">
+    <classNode dependClassName="backend.auxTypes.IAuxType" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.auxTypes.VariableState" />
+    <classNode dependClassName="backend.structure.CircuitGenerator" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="xjsnark.zerocash.PublicKey" />
+    <classNode extendsClassName="backend.auxTypes.StructDefinition" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.Digest" file="Digest.java">
+    <classNode dependClassName="backend.auxTypes.IAuxType" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.auxTypes.VariableState" />
+    <classNode dependClassName="backend.structure.CircuitGenerator" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode extendsClassName="backend.auxTypes.StructDefinition" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.MerkleAuthPath" file="MerkleAuthPath.java">
+    <classNode dependClassName="backend.auxTypes.Bit" />
+    <classNode dependClassName="backend.auxTypes.ConditionalScopeTracker" />
+    <classNode dependClassName="backend.auxTypes.IAuxType" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.auxTypes.VariableState" />
+    <classNode dependClassName="backend.structure.CircuitGenerator" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="xjsnark.zerocash.Digest" />
+    <classNode dependClassName="xjsnark.zerocash.PourCircuit" />
+    <classNode dependClassName="xjsnark.zerocash.Util" />
+    <classNode extendsClassName="backend.auxTypes.StructDefinition" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.PourCircuit" file="PourCircuit.java">
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.config.Config" />
+    <classNode dependClassName="backend.eval.CircuitEvaluator" />
+    <classNode dependClassName="backend.eval.SampleRun" />
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="xjsnark.zerocash.Coin" />
+    <classNode dependClassName="xjsnark.zerocash.Digest" />
+    <classNode dependClassName="xjsnark.zerocash.MerkleAuthPath" />
+    <classNode dependClassName="xjsnark.zerocash.PourCircuitSampleIO" />
+    <classNode dependClassName="xjsnark.zerocash.PrivateKey" />
+    <classNode dependClassName="xjsnark.zerocash.TestUtilities" />
+    <classNode dependClassName="xjsnark.zerocash.Util" />
+    <classNode extendsClassName="backend.structure.CircuitGenerator" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.PourCircuitSampleIO" file="PourCircuitSampleIO.java">
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="xjsnark.zerocash.TestUtilities" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.PrivateKey" file="PrivateKey.java">
+    <classNode dependClassName="backend.auxTypes.IAuxType" />
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.auxTypes.VariableState" />
+    <classNode dependClassName="backend.structure.CircuitGenerator" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode extendsClassName="backend.auxTypes.StructDefinition" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.PublicKey" file="PublicKey.java">
+    <classNode dependClassName="backend.auxTypes.IAuxType" />
+    <classNode dependClassName="backend.auxTypes.VariableState" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="xjsnark.zerocash.Digest" />
+    <classNode extendsClassName="backend.auxTypes.StructDefinition" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.TestUtilities" file="TestUtilities.java">
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.math.BigInteger" />
+    <classNode dependClassName="java.util.Random" />
+    <classNode dependClassName="xjsnark.zerocash.PourCircuitSampleIO" />
+  </dependency>
+  <dependency className="xjsnark.zerocash.Util" file="Util.java">
+    <classNode dependClassName="backend.auxTypes.UnsignedInteger" />
+    <classNode dependClassName="backend.structure.CircuitGenerator" />
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="xjsnark.zerocash.Digest" />
+  </dependency>
+</dependenciesRoot>
+
